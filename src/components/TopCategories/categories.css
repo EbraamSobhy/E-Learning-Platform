@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+}
+
+.card-body {
+    width: 350px;
+    height: 350px;
+}
+
+.frontend {
+    width: 350px;
+    height: 400px;
+}
+
+.backend {
+    width: 200px;
+    height: 100px;
+}
+
+.mobile {
+    width: 200px;
+    height: 100px;
+}
+
+.security {
+    width: 200px;
+    height: 100px;
+}
+
+.categories {
+    text-align: center;
+}
+
+.category-card {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px blue;
+}
+
+.card-image {
+    object-fit: cover;
+    height: 190px;
+}
+
+.card-text {
+    font-size: 20px;
+}

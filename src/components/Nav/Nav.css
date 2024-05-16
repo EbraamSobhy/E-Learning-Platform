@@ -1,0 +1,58 @@
+/* Nav.css */
+
+.logo {
+    height: 70px;
+    width: 100px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: white;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .show > .nav-link {
+    color: white; /* Set text color to white */
+}
+
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: white; /* Set brand text color to white */
+}
+
+/* Remove the link disappearance when clicked */
+.navbar-nav .nav-link.active,
+#collapsible-nav-dropdown {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: black; /* Set toggle button border color to 
+    white */
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Set toggle button background color to white */
+}
+
+    /* Adjust the z-index of the NavBar */
+    .NavBar {
+        position: relative; /* Ensure position is set to relative or absolute */
+        z-index: 998; /* Set a higher z-index value */
+    }
+
+.nav-link:hover {
+    border-bottom: white;
+    border-bottom-style: solid;
+}
+
+#register:hover {
+    border-bottom: green;
+    border-bottom-style: solid;
+    }
+
+    #register1:hover {
+        border-bottom: grey;
+        border-bottom-style: solid;
+        }
