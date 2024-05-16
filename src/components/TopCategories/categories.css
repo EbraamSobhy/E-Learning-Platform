@@ -1,5 +1,11 @@
+body {
+
+    background-color: #96D4D4;
+}
+
 h1 {
     text-align: center;
+    color: black;
 }
 
 .row {
@@ -58,4 +64,9 @@ h1 {
 
 .card-text {
     font-size: 20px;
+}
+
+.card-title {
+    padding: 2px;
+    font-size: 25px;
 }

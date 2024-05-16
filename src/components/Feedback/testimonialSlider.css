@@ -1,0 +1,42 @@
+.testimonial-slider {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+    background-color: #04AA6D;
+    background-attachment: fixed;
+}
+
+.testimonial-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial-image {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.testimonial-content {
+    color: white;
+}
+
+.testimonial-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    color: black;
+}
+
+.testimonial-occupation {
+    font-size: 0.9em;
+    color: white;
+}
+
+.members{
+    color: black;
+}

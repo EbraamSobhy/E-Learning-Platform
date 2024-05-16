@@ -1,0 +1,15 @@
+.who {
+    background-color: #191c21;
+    padding: 40px;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+.introduction {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}

@@ -1,6 +1,10 @@
+import React from 'react';
 import Home from './components/Home/Home';
 import NavBar from './components/Nav/NavBar.jsx';
 import Categories from './components/TopCategories/Categories';
+import Who from './components/Who are we/Who';
+import TestimonialSlider from './components/Feedback/TestimonialSlider.jsx';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -9,8 +13,13 @@ function App() {
       <Home />
       <br />
       <Categories />
+      <br />
+      <Who />
+      <TestimonialSlider />
+      <Footer />
     </div>
   );
 }
+
 
 export default App;
