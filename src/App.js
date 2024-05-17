@@ -13,7 +13,6 @@ function App() {
       <Home />
       <br />
       <Categories />
-      <br />
       <Who />
       <TestimonialSlider />
       <Footer />
