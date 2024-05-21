@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from 'react-bootstrap/Container';
@@ -28,10 +29,10 @@ function NavBar() {
         </style>
         <Navbar expand="lg" className="bg-black">
             <Container>
-                <Navbar.Brand href="#home"><img className='logo' src={logo} alt="" /></Navbar.Brand>
+                <Navbar.Brand as={Link} to="/"><img className='logo' src={logo} alt="" /></Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#features">Home</Nav.Link>
-                    <Nav.Link href="#pricing">Tutorials</Nav.Link>
+                    <Nav.Link as={Link} to="/">Home</Nav.Link>
+                    <Nav.Link as={Link} to="/tutorials" target="_blank">Tutorials</Nav.Link>
                     <NavDropdown title="Courses" id="collapsible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">

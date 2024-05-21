@@ -48,6 +48,7 @@ const TestimonialSlider = () => {
     };
 
     return (
+        <div className='slider'>
         <div className="testimonial-slider">
             <h1 className='members'>What Members Are Saying</h1>
             <br /><br />
@@ -63,6 +64,7 @@ const TestimonialSlider = () => {
                     </div>
                 ))}
             </Slider>
+        </div>
         </div>
     );
 };
