@@ -1,11 +1,14 @@
 .tutorials {
     background-image: url("black-background.gif");
-    padding: 50px;
+    background-repeat: repeat;
+    padding: 5px;
 }
 
 .tutorials-title {
     color: white;
     text-align: center;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 
@@ -31,5 +34,9 @@ h1{
 }
 
 .highlight-title {
-    color: #04AA6D; /* Change this to the desired color */
+    color: #04AA6D;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
     }
