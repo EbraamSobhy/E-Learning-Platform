@@ -7,6 +7,7 @@ import boy from './boy.jpg';
 import boy1 from './boy1.jpg';
 import girl from './girl.jpg';
 import girl1 from './girl1.jpg';
+import feedback from './feedback.png';
 
 const testimonials = [
     {
@@ -50,7 +51,7 @@ const TestimonialSlider = () => {
     return (
         <div className='slider'>
         <div className="testimonial-slider">
-            <h1 className='members'>What Members Are Saying</h1>
+            <h1 className='members'>What Members Are Saying <span><img src={feedback} alt="description" style={{ width: '50px', height: '50px'}} /></span></h1>
             <br /><br />
             <Slider {...settings}>
                 {testimonials.map((testimonial, index) => (

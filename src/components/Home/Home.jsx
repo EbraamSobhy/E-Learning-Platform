@@ -9,36 +9,37 @@ function Home() {
             <video src={BgVideo} autoPlay loop muted />
             <style type="text/css">
             {`
-        .btn-flat {
-        background-color: blue;
-        color: white;
-        height: 100px;
-        width: 190px;
-        }
+                .btn-flat {
+                    background-color: blue;
+                    color: white;
+                    height: 100px;
+                    width: 190px;
+                }
 
-        .btn-xxl {
-        padding: 1rem 1.5rem;
-        font-size: 30px;
-        }
-        .btn-flat:hover {
-            background-color: royalBlue;
-            color: black;
-            font-weight: 500;
-            border-color: blue;
-            border-style: solid;
-            border-width: 3px;
-        }
-        `}
-        </style>
+                .btn-xxl {
+                    padding: 1rem 1.5rem;
+                    font-size: 30px;
+                }
+
+                .btn-flat:hover {
+                    background-color: royalBlue;
+                    color: black;
+                    font-weight: 500;
+                    border-color: blue;
+                    border-style: solid;
+                    border-width: 3px;
+                }
+            `}
+            </style>
             <div className="content">
                 <p>High Quality Technology</p>
                 <p>Courses and Videos</p>
                 <p className="courses">Web Development | Mobile Application | Cyber Security</p>
                 <br />
                 <div className="button">
-                <Button variant="flat" size="xxl">
-                    Let's Start
-                </Button>
+                    <Button variant="flat" size="xxl">
+                        Let's Start
+                    </Button>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import './footer.css';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaWhatsapp , FaInstagram } from 'react-icons/fa';
+import { RiLiveLine } from "react-icons/ri";
 
 function Footer() {
     return (
@@ -8,17 +9,17 @@ function Footer() {
             <footer className="footer">
                 <p className="name">Passion.Tech</p>
                 <div className="social-media-icons">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaFacebookF />
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter />
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <FaWhatsapp  />
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedinIn />
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <RiLiveLine />
                     </a>
                 </div>
                 <p className="copyright">&copy;2024 Passion.Tech All rights reserved.</p>

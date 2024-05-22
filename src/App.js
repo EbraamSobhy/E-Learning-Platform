@@ -21,7 +21,6 @@ function Layout() {
         <Route path="/tutorials" element={<Tutorials />} />
       </Routes>
       {!isTutorialsPage && <>
-        <br />
         <Categories />
         <Who />
         <TestimonialSlider />
