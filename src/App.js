@@ -7,11 +7,15 @@ import Who from './components/Who are we/Who';
 import TestimonialSlider from './components/Feedback/TestimonialSlider.jsx';
 import Footer from './components/Footer/Footer';
 import Tutorials from './content/Toturials/Toturials';
+import Frontend from './content/Front-End/Frontend.jsx';
+import Backend from './content/BackEnd/Backend.jsx';
+import Mobile from './content/Mobile App/Mobile.jsx';
+import Design from './content/Web Design/Design.jsx';
 
 function Layout() {
   const location = useLocation();
 
-  const isTutorialsPage = location.pathname === "/tutorials";
+  const isExcludedPage = ["/tutorials", "/content/Front-End", "/content/Backend", "/content/Mobile", "/content/Design"].includes(location.pathname);
 
   return (
     <>
@@ -19,13 +23,19 @@ function Layout() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tutorials" element={<Tutorials />} />
+        <Route path="/content/Front-End" element={<Frontend />} />
+        <Route path="/content/Backend" element={<Backend />} />
+        <Route path="/content/Mobile" element={<Mobile />} />
+        <Route path="/content/Design" element={<Design />} />
       </Routes>
-      {!isTutorialsPage && <>
-        <Categories />
-        <Who />
-        <TestimonialSlider />
-        <Footer />
-      </>}
+      {!isExcludedPage && (
+        <>
+          <Categories />
+          <Who />
+          <TestimonialSlider />
+          <Footer />
+        </>
+      )}
     </>
   );
 }

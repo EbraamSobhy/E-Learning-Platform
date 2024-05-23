@@ -4,7 +4,7 @@ import { Card, Row, Col } from 'react-bootstrap';
 import frontend from './frontend.jpg';
 import backend from './Back-End.webp';
 import mobile from './mobile.jpg';
-import security from './cybersecurity.jpg';
+import UI from './ui.jpg';
 import course from './programming course.png';
 
 function Categories() {
@@ -45,11 +45,11 @@ function Categories() {
                 </Col>
                 <Col>
                     <Card className="category-card">
-                        <Card.Img variant="top" src={security} className="card-image" />
+                        <Card.Img variant="top" src={UI} className="card-image" />
                         <Card.Body>
-                            <Card.Title>Cyber Security</Card.Title>
+                            <Card.Title>UI/UX Web Design</Card.Title>
                             <hr />
-                            <Card.Text>Protect systems and data with advanced security practices.</Card.Text>
+                            <Card.Text>Create intuitive and engaging user interfaces and experiences.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>

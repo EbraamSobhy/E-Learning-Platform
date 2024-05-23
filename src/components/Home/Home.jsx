@@ -34,7 +34,7 @@ function Home() {
             <div className="content">
                 <p>High Quality Technology</p>
                 <p>Courses and Videos</p>
-                <p className="courses">Web Development | Mobile Application | Cyber Security</p>
+                <p className="courses">Web Development | Mobile Application | UI/UX Web Design</p>
                 <br />
                 <div className="button">
                     <Button variant="flat" size="xxl">
