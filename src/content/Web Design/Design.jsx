@@ -4,12 +4,23 @@ import Footer from "../../components/Footer/Footer";
 
 function Tutorials() {
     useEffect(() => {
-        document.title = "Front-End";
+        document.title = "Web Design";
     }, []);
 
     return (
-        <div className="tutorials">
-            <h1 className="tutorials-title">UI/UX Web Design Course</h1>
+        <div className="w">
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
+            <h1 className="w-title">UI/UX Web Design Course</h1>
             <br />
             <Footer />
         </div>

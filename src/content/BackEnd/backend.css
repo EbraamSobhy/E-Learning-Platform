@@ -1,14 +1,12 @@
-.tutorials1 {
-
+.Backend {
+    background-image: url("white.gif");
     background-repeat: repeat;
-
+    padding: 5px;
 }
 
-.tutorials-title {
-    color: white;
+.backend-title {
+    color: black;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
 }
-
-

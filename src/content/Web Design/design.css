@@ -1,15 +1,12 @@
-.tutorials {
-
+.w {
+    background-image: url("shapes.gif");
     background-repeat: repeat;
     padding: 5px;
 }
 
-.tutorials-title {
-    color: white;
+.w-title {
+    color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
-
-
-

@@ -8,16 +8,19 @@ function Frontend() {
     }, []);
 
     return (
-        <div className="tutorials">
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1><h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
-            <h1 className="frontend-title">Front-End Web Development Course</h1>
+        <div className="f">
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
+            <h1 className="f-title">Front-End Web Development Course</h1>
             <br />
             <Footer />
         </div>

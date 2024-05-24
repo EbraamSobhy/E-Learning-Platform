@@ -1,15 +1,12 @@
-.tutorials {
-
+.m {
+    background-image: url("giphy.gif");
     background-repeat: repeat;
     padding: 5px;
 }
 
-.tutorials-title {
+.m-title {
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
-
-
-
