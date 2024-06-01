@@ -5,12 +5,11 @@ import frontend from './frontend.jpg';
 import backend from './Back-End.webp';
 import mobile from './mobile.jpg';
 import UI from './ui.jpg';
-import course from './programming course.png';
 
 function Categories() {
     return (
         <div className="categories">
-            <h1 className="Courses">Top Courses <span><img src={course} alt="description" style={{ width: '60px', height: '60px' }} /></span></h1>
+            <h1 className="Courses">Top Courses</h1>
             <br />
             <Row>
                 <Col>
